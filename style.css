@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #652ebf;
+	color: #fff;
+	font-family: "Trebuchet MS", Arial;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#game {
+	display: flex;
+}
+.genre-column {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.card, .answered-card{
+	width: 200px;
+	height: 120px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	background-color: #7070c9;
+	border: solid yellow 5px;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+	font-size: 100px;
+}
+
+.correct-answer {
+	background-color: rgb(36, 197, 157);
+}
+
+.wrong-answer {
+	background-color: rgb(126, 22, 65);
+}
+
+.true-button {
+	background-color: rgb(36, 197, 36);
+}
+
+.false-button {
+	margin:5px;
+	background-color: rgb(172, 26, 26);
+}
+button{
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
